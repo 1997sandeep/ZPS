@@ -1,0 +1,11 @@
+@EndUserText.label: 'BOQ Tracking Service'
+define service ZBOQ_TRACKING_SRV {
+  expose ZC_BoqMonthlySummary as BOQMONTYLYDETAILS;
+  expose ZBOQ_TRACK_REP       as BOQMONTYLYREPORT;
+  expose ZBOQ_MONTHLYSUMCDS   as BOQCRUD;
+  expose ZPS_BUDGETREPPROJF4  as PROJF4;
+  expose ZPS_BUDGETREPWBSF4   as WBSF4;
+  expose ZBOQ_HEADERF4        as BOQHEADERF4;
+  expose ZBOQ_LINEITEMF4      as BOQLINEITEMF4;
+  expose ZBOQ_CONTRATCF4      as CONTRACTF4;
+}

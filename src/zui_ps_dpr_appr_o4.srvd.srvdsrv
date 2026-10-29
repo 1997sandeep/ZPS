@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PS_DPR_APPR'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PS_DPR_APPR'
+  }
+}
+define service ZUI_PS_DPR_APPR_O4 provider contracts odata_v4_ui {
+  expose ZC_PS_DPR_APPR;
+}

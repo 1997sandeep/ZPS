@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service'
+define service ZPS_MPD_UPLOD_SRV {
+  expose ZPS_MPD_UPLOD_CDS;
+}

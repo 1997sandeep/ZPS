@@ -1,0 +1,50 @@
+managed implementation in class zbp_aop_data_cds_c unique;
+strict ( 2 );
+
+define behavior for ZAOP_DATA_CDS_C //alias <alias_name>
+persistent table zaop_tbl_c
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+//  field ( readonly ) Zpspnr,  ZboqVersion,  Posid , ZboqHeadNo , ZboqItemNo , Plant;
+  mapping for zaop_tbl_c {
+
+ Zpspnr              = Zpspnr ;
+ ZboqVersion         = Zboq_Version   ;
+ Posid               = Posid         ;
+ ZboqHeadNo          = Zboq_Head_No    ;
+ ZboqItemNo          = Zboq_Item_No    ;
+ Plant               = Plant         ;
+ Year1               = Year1         ;
+ ZboqLevel           = Zboq_Level     ;
+ ZboqQty             = Zboq_Qty       ;
+ Zunit               = Zunit         ;
+ ZboqHeadDesc        = Zboq_Head_Desc  ;
+ ZboqItemDesc        = Zboq_Item_Desc  ;
+ Zcurr               = Zcurr         ;
+ ZboqRate            = Zboq_Rate      ;
+ ZtotalAmt           = Ztotal_Amt     ;
+ ResponsibleEng      = Responsible_Eng ;
+ Bal_qty             = Bal_qty ;
+ Jan                 = Jan           ;
+ Feb                 = Feb           ;
+ March               = March         ;
+ April               = April         ;
+ May                 = May           ;
+ June                = June          ;
+ July                = July          ;
+ Aug                 = Aug           ;
+ Sep                 = Sep           ;
+ Oct                 = Oct           ;
+ Nov                 = Nov           ;
+ Dece                = Dece          ;
+ CreatedBy           = Created_By     ;
+ CreatedAt           = Created_At     ;
+ LastChangedBy       = Last_Changed_By ;
+ LastChangedAt       = Last_Changed_At ;
+  }
+}

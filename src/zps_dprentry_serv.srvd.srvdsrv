@@ -1,0 +1,25 @@
+@EndUserText.label: 'Service Binding For DPR Entry'
+define service ZPS_DPRENTRY_SERV {
+  expose ZPS_DPR_ENTRY_CDS1;
+  expose zps_dpr_f4_project_def      as f4_proj;
+  expose ZPS_DPR_F4_BOQ_HEAD_ITEM    as f4_boq;
+  expose ZPS_DPR_F4_WBS_ELEMENT      as f4_wbs;
+  expose ZPS_DPR_ENTRY_PAR           as DPR_PARAM;
+  expose ZPS_DPRBOQ_LATEST           as BOQMAP;
+  expose ZPS_DPR_ENTRY_WONO          as f4_wo;
+  expose ZPS_DPR_ENTRY_USERID        as Users;
+  expose ZPS_DPR_PROJ_WONO           as f4_wono;
+  expose zps_dpr_service             as f4_serv;
+  expose ZPS_DPR_BOQ_VAL             as boq_valid;
+  expose ZPS_DPR_APPROVER            as dpr_appr;
+  expose ZPS_DPR_APPR_GET            as dpr_get;
+  expose ZPD_DPR_USER                as dpr_vald;
+  expose ZR_PS_DPR_APPR;
+  expose ZPS_DPR_DELETION_CHECK_USER;
+  expose ZPS_DPR_DELETION_CHECK;
+  expose ZPS_DPR_TABLE_DATA;
+  expose ZPS_DPR_PROJ_USER;
+  expose ZDPR_RECORD_CDS;
+  expose ZPS_DPR_REPORT_UI           as DPR_SUMM_REPORT;
+  expose ZDPR_ATTCH_CDS              as dms_attach;
+}

@@ -1,0 +1,27 @@
+managed implementation in class zbp_ps_mpd_dpr_data_cds unique;
+//strict ( 2 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZPS_MPD_DPR_DATA_CDS //alias <alias_name>
+persistent table zps_mpd_dpr_data
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+//  field ( readonly ) Sno, Projectid, ResourceType;
+  mapping for zps_mpd_dpr_data
+    {
+      Sno               = sno;
+      Projectid         = projectid;
+      ResourceType      = resource_type;
+      PositionName      = position_name;
+      PositionType      = position_type;
+      NumberOfPositions = number_of_positions;
+      DprDate           = dpr_Date;
+      Present           = present;
+      Working           = working;
+      Breakdown         = breakdown;
+    }
+}

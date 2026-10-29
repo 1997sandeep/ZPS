@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Annual Operating Plan - BOQ quantity plan, cashflow and S-Curve",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Annual Operating Plan"
+  },
+  "ui5AppDetails": {
+    "appId": "aop.zboqaop"
+  },
+  "navigation": {
+    "targetMappingId": "ZBOQANNUALOP_UI5R_TM",
+    "semanticObject": "ZBOQANNUALOP",
+    "action": "Manage",
+    "desktop": true,
+    "tablet": true
+  },
+  "tiles": [
+    {
+      "id": "ZBOQANNUALOP_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Annual Operating Plan",
+        "subtitle": "BOQ Tracking",
+        "icon": "sap-icon://line-chart"
+      }
+    }
+  ]
+}

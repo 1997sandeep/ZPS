@@ -1,0 +1,36 @@
+managed implementation in class zbp_ps_zero_budget_cds unique;
+strict ( 2 );
+
+define behavior for ZPS_ZERO_BUDGET_CDS //alias <alias_name>
+persistent table zps_zero_bud_tab
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  //  field ( readonly ) Project, WbsElement;
+  mapping for zps_zero_bud_tab
+    {
+      Project             = project;
+      WbsElement          = wbs_element;
+      Definition_         = definition_;
+      Projectdescription  = project_description;
+      Wbsdescription      = wbs_description;
+      Boqitem             = boq_item;
+      Boqitemdescription  = boq_item_description;
+      Boqunit             = boq_unit;
+      Boqquantity         = boq_quantity;
+      Zcurr               = zcurr;
+      Boqrate             = boq_rate;
+      Boqamount           = boq_amount;
+      Category            = category;
+      Materialservicecode = material_service_code;
+      Unit                = unit;
+      Plannedrates        = planned_rates;
+      Plannedqty          = planned_qty;
+      Plannedamount       = planned_amount;
+      Totalamount         = total_amount;
+    }
+}

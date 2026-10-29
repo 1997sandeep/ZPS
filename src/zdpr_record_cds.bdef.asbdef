@@ -1,0 +1,49 @@
+managed implementation in class zbp_dpr_record_cds unique;
+strict ( 2 );
+
+define behavior for ZDPR_RECORD_CDS //alias <alias_name>
+persistent table zdpr_record
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) ZdprProjId, ZdprContractNo, ZdprWbse, ZdprHeaderNo, ZdprLineItem;
+   mapping for ZDPR_RECORD
+    {
+
+ZdprProjId            = zdpr_proj_id   ;
+ZdprContractNo        =    zdpr_contract_no;
+ZdprWbse              =    zdpr_wbse      ;
+ZdprHeaderNo          =    zdpr_header_no ;
+ZdprLineItem          =    zdpr_line_item ;
+ZdprContractLi        =    zdpr_contract_li;
+ZdprWbseDes           =    zdpr_wbse_des  ;
+ZdprDate              =    zdpr_date      ;
+ZdprQuantity          =    zdpr_quantity  ;
+ZdprPrvQty            =    zdpr_prv_qty   ;
+ZpdrCumQty            =    zpdr_cum_qty   ;
+ZdprMonth             =    zdpr_month     ;
+ZdprW1Qty             =    zdpr_w1_qty    ;
+ZdprW2Qty             =    zdpr_w2_qty    ;
+ZdprW3Qty             =    zdpr_w3_qty    ;
+ZdprW4Qty             =    zdpr_w4_qty    ;
+ZdprW5Qty             =    zdpr_w5_qty    ;
+ZdprMonQty            =    zdpr_mon_qty   ;
+ZdprRemark            =    zdpr_remark    ;
+ZdprUom               =    zdpr_uom       ;
+ZdprBoqQty            =    zdpr_boq_qty   ;
+ZdprBalQty            =    zdpr_bal_qty   ;
+ZdprPerWork           =    zdpr_per_work  ;
+ZdprCperWork          =    zdpr_cper_work ;
+ZdprPlnStart          =    zdpr_pln_start ;
+ZdprPlnEnd            =    zdpr_pln_end   ;
+ZdprActStart          =    zdpr_act_start ;
+ZdprActEnd            =    zdpr_act_end   ;
+ZdprVariance          =    zdpr_variance  ;
+ZdprResEngg           =    zdpr_res_engg  ;
+ZdprRemarks            =    zdpr_remarks   ;
+         }
+}

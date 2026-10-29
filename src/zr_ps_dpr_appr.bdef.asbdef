@@ -1,0 +1,47 @@
+managed implementation in class ZBP_R_PS_DPR_APPR unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_PS_DPR_APPR alias ZrPsDprAppr
+persistent table ZPS_DPR_APPR
+draft table ZPS_DPR_APPR_D
+etag master Locallastchangedat
+lock master total etag Lastchangedat
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Plant, Userid;
+
+  field ( readonly )
+   Localcreatedby,
+   Localcreatedat,
+   Locallastchangedby,
+   Locallastchangedat,
+   Lastchangedat;
+
+  field ( readonly : update )
+   Plant, Userid;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZPS_DPR_APPR
+  {
+    Plant = plant;
+    Userid = userid;
+    Username = username;
+    Localcreatedby = localcreatedby;
+    Localcreatedat = localcreatedat;
+    Locallastchangedby = locallastchangedby;
+    Locallastchangedat = locallastchangedat;
+    Lastchangedat = lastchangedat;
+  }
+}

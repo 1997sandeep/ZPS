@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination for BOQ Report'
+define service ZPS_BOQ_REPORT_SD {
+  expose ZPS_BOQ_REPORT;
+}

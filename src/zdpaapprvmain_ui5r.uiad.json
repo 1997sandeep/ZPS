@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "DPR Approver maintenance",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "DPR Approver maintenance"
+  },
+  "ui5AppDetails": {
+    "appId": "zpsdprappr.zpsdprappr"
+  },
+  "navigation": {
+    "targetMappingId": "ZDPAAPPRVMAIN_UI5R_TM",
+    "semanticObject": "zpsdprappr",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZDPAAPPRVMAIN_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "DPR Approver maintenance"
+      }
+    }
+  ]
+}

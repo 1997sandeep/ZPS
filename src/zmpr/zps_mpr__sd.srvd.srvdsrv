@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition MPR Report'
+define service ZPS_MPR__SD {
+  expose ZMPR_CUSTOM_CDS    as report;
+  expose ZPS_MPR_WBS_F4     as wbsf4;
+  expose ZPS_MPR_PROJECT_F4 as projectf4;
+  expose ZMONTH_F4          as month_f4;
+}

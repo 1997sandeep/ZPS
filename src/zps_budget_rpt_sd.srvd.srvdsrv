@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Def For Budget Report'
+define service ZPS_BUDGET_RPT_SD {
+  expose ZPS_BUDGET_RPT as Budget;
+  expose ZPS_BUDGET_RPT_F4 as Wbs_F4;
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'BudgetReport Service defination'
+define service ZPS_BUDGETREPORT_SD {
+  expose ZPS_BUDGETREPORT_CDS;
+  expose ZPS_BUDGETREPPROJF4;
+  expose ZPS_BUDGETREPWBSF4;
+}

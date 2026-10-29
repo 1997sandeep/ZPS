@@ -1,0 +1,75 @@
+unmanaged implementation in class zbp_pscds_boqroot1 unique;
+strict ( 1 );
+//with draft;
+
+define behavior for ZPSCDS_BOQROOT1 alias zboqroot1
+//persistent table zpst_boq_mast2
+//early numbering
+//draft table zpst_boq_mast2
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  field ( mandatory )
+
+  Zpspnr,
+  Zboqversion,
+  Zboqheadno,
+  Zboqitemno;
+
+  field ( readonly ) CreatedBy, CreatedAt, LastChangedBy, LastChangedAt;
+
+  create;
+  update;
+  delete;
+
+  //  draft action Edit;
+  //  draft action Activate;
+  //  draft action Discard;
+  //  draft action Resume;
+  //  draft determine action Prepare;
+
+  mapping for zpst_boq_mast2
+    {
+      Zpspnr        = zpspnr;
+      ZboqVersion   = zboq_version;
+      ZboqHeadNo    = zboq_head_no;
+      ZboqItemNo    = zboq_item_no;
+      ZboqFrom      = zboq_from;
+      ZboqTo        = zboq_to;
+      ZboqLevel     = zboq_level;
+      ZboqQty       = zboq_Qty;
+      Zunit         = zunit;
+      Posid         = posid;
+      Zcurr         = zcurr;
+      ZdesChainFrom = zdes_chain_from;
+      ZdesChainTo   = zdes_chain_to;
+      ZdesChainAt   = zdes_chain_at;
+      ZboqHeadDesc  = zboq_head_desc;
+      ZboqItemDesc  = zboq_item_desc;
+      ZboqRate      = zboq_rate;
+      ZtotalAmt     = ztotal_amt;
+      ZProjext      = zproj_ext;
+      Material      = material;
+      ZboqHeadWbs   = zboq_head_wbs;
+      ZboqVqty      = zboq_vqty;
+      ZboqVamount   = zboq_vamount;
+      ZboqVrate     = zboq_vrate;
+      ZboqTqty      = zboq_tqty;
+      ZboqTamount   = zboq_tamount;
+      ZboqTrate     = zboq_trate;
+      ZboqBlqty     = zboq_blqty;
+      ZboqBlamount  = zboq_blamount;
+      ZboqBlrate    = zboq_blrate;
+      ZboqBill      = zboq_bill;
+      ZboqBillunit  = zboq_billunit;
+      Plant         = plant;
+      contract_number = Contract_number;
+      Contract_line_item = contract_line_item;
+      Responsible_eng = responsible_eng;
+      CreatedBy     = created_by;
+      CreatedAt     = created_at;
+      LastChangedBy = last_changed_by;
+      LastChangedAt = last_changed_at;
+    }
+}

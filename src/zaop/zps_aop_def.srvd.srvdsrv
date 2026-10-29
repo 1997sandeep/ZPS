@@ -1,0 +1,11 @@
+@EndUserText.label: 'Service Definition for Aop'
+define service ZPS_AOP_DEF {
+  expose ZAOP_DATA_CDS_C        as create_data;
+  expose ZPROJECTID_F4          as projectid_f4;
+  expose ZAOP_WBS_F4            as WBSF4;
+  expose ZAOP_BOQHeader_F4      as BOQHEADERF4;
+  expose ZAOP_BOQLINEITEM_F4    as BOQLINEITEMF4;
+  expose ZAOP_CONTRATC_F4       as CONTRACTF4;
+  expose ZPS_DPR_MONTH_SUMMERY1 as Executed_Qty;
+  expose ZPS_AOP_BOQ;
+}

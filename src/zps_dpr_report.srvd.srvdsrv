@@ -1,0 +1,4 @@
+@EndUserText.label: 'DPR Report'
+define service ZPS_DPR_REPORT {
+  expose ZPS_DPR_REPORT_UI;
+}

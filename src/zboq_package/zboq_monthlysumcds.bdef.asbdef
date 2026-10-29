@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_boq_monthlysumcds unique;
+//strict ( 2 );
+
+define behavior for ZBOQ_MONTHLYSUMCDS //alias <alias_name>
+//late numbering
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) SrNo, ProjectId, Plant, WbsElement;
+}

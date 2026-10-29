@@ -1,0 +1,83 @@
+unmanaged implementation in class zbp_ps_dpr_entry_cds1 unique;
+strict ( 1 );
+
+define behavior for ZPS_DPR_ENTRY_CDS1 alias zdprentry
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+
+  field ( mandatory )
+  zdpr_no,
+  zdpr_date;
+
+
+  field ( readonly ) created_by, created_at, last_changed_by, last_changed_at;
+
+  create;
+  update;
+  delete;
+  mapping for zpst_scp_dpr_r1
+    {
+      zdpr_no         = zdpr_no;
+      zdpr_date       = zdpr_date;
+      posid           = posid;
+      zboq_head_no    = zboq_head_no;
+      zboq_head_desc  = zboq_head_desc;
+      zboq_item_no    = zboq_item_no;
+      zboq_item_desc  = zboq_item_desc;
+      zboq_qty        = zboq_qty;
+      zunit           = meins;
+      zsubcontract    = zsubcontract;
+      zuom            = zuom;
+      zdpr_boq        = zdpr_boq;
+      zsubmitted_no   = zsubmitted_no;
+      zsubmitted_len  = zsubmitted_len;
+      zsubmitted_bre  = zsubmitted_bre;
+      zsubmitted_hei  = zsubmitted_hei;
+      ztod_qty        = ztod_qty;
+      zresource_utl   = zresource_utl;
+      zremark         = zremark;
+      zappr_status    = zappr_status;
+      zpspnr          = zpspnr;
+      zproj_ext       = zproj_ext;
+      created_by      = created_by;
+      created_at      = created_at;
+      last_changed_by = last_changed_by;
+      last_changed_at = last_changed_at;
+      zdpr_from       = zdpr_from;
+      zdpr_to         = zdpr_to;
+      zdate           = zdate;
+      zwo_no          = zwo_no;
+      zwo_item        = zwo_item;
+      zwo_name        = zwo_name;
+      zwo_qty         = zwo_qty;
+      zwo_unit        = zwo_unit;
+      zmat            = zmat;
+      zmat_desc       = zmat_desc;
+      zwo_rate        = zwo_rate;
+      zwo_amt         = zwo_amt;
+      zarea           = zarea;
+      ztype_work      = ztype_work;
+      zchain_from     = zchain_from;
+      zchain_to       = zchain_to;
+      zroads          = zroads;
+      zlocation       = zlocation;
+      zsource_loc     = zsource_loc;
+      zlayer          = zlayer;
+      zdpr_qty        = zdpr_qty;
+      zdpr_flg        = zdpr_flg;
+      ProjectStartDate  = ProjectStartDate;
+      ProjectEndDate    = ProjectEndDate  ;
+      actualStartDate   = actualStartDate ;
+      actualFinishDate  = actualFinishDate;
+      responsible_eng   = responsible_eng ;
+      amount = amt;
+      subcontactor = subcontactor;
+      location = location;
+    }
+
+
+
+}

@@ -1,0 +1,10 @@
+@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'WBS F4'
+@Metadata.ignorePropagatedAnnotations: true
+define view entity ZAOP_WBS_F4 as select from I_EnterpriseProject as A left outer join  I_EnterpriseProjectElement as B on ( B.ProjectUUID = A.ProjectUUID )
+{
+    key A.Project,
+  key  B.ProjectElement as WBS,
+    B.ProjectElementDescription as WBSDESCRIPTION
+}

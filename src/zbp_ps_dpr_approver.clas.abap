@@ -1,0 +1,9 @@
+CLASS zbp_ps_dpr_approver DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zps_dpr_approver.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZBP_PS_DPR_APPROVER IMPLEMENTATION.
+ENDCLASS.

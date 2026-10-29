@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Zero Budget CDS",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZPS_ZERO_BUDGET_CDS"
+  },
+  "fields": [
+    {
+      "name": "PROJECT",
+      "nature": "general"
+    },
+    {
+      "name": "WBSELEMENT",
+      "nature": "general"
+    },
+    {
+      "name": "BOQITEM",
+      "nature": "general"
+    },
+    {
+      "name": "CATEGORY",
+      "nature": "general"
+    },
+    {
+      "name": "MATERIALSERVICECODE",
+      "nature": "general"
+    },
+    {
+      "name": "DEFINITION_",
+      "nature": "general"
+    },
+    {
+      "name": "PROJECTDESCRIPTION",
+      "nature": "general"
+    },
+    {
+      "name": "WBSDESCRIPTION",
+      "nature": "general"
+    },
+    {
+      "name": "BOQITEMDESCRIPTION",
+      "nature": "general"
+    },
+    {
+      "name": "BOQUNIT",
+      "nature": "general"
+    },
+    {
+      "name": "BOQQUANTITY",
+      "nature": "general"
+    },
+    {
+      "name": "ZCURR",
+      "nature": "general"
+    },
+    {
+      "name": "BOQRATE",
+      "nature": "general"
+    },
+    {
+      "name": "BOQAMOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "UNIT",
+      "nature": "general"
+    },
+    {
+      "name": "PLANNEDRATES",
+      "nature": "general"
+    },
+    {
+      "name": "PLANNEDQTY",
+      "nature": "general"
+    },
+    {
+      "name": "PLANNEDAMOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "TOTALAMOUNT",
+      "nature": "general"
+    }
+  ]
+}

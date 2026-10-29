@@ -1,0 +1,18 @@
+@EndUserText.label: 'Service definition for BOQ Root1'
+define service ZPSCDS_BOQROOT1_SD1 {
+  expose ZPSCDS_BOQROOT1;
+  expose ZPS_F4_PROJECT_DEF          as f4_proj;
+  expose ZPS_F4_WBS_ELEMENT          as f4_wbs;
+  expose zpscds_boqroot1_param       as BOQ_PARM;
+  expose ZPS_BOQ_WBS_VALIDATION      as WBSValidation;
+  expose ZPS_BOQ_MATERIAL_VALIDATION as MaterialValidation;
+  expose ZPS_BOQ_VALIDATION_VERSION  as VersionValidation;
+  expose ZPSCDS_BOQMASTER_DISPLAY    as Display;
+  expose ZPS_BOQ_VERSION             as vers_dd;
+  expose ZPS_F4_WBS_EL_PARAM;
+  expose ZPS_F4_WBS_EL_VERS;
+  expose ZPS_BOQ_COMP_SCR            as boq_comp;
+  expose ZPS_BPO_BOQ_LINK            as BpoBoq;
+  expose ZPS_BOQ_UNIT_VALID          as UnitValid;
+  expose ZI_plant                    as Plant;
+}

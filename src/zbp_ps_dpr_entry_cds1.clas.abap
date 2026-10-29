@@ -1,0 +1,9 @@
+CLASS zbp_ps_dpr_entry_cds1 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zps_dpr_entry_cds1.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZBP_PS_DPR_ENTRY_CDS1 IMPLEMENTATION.
+ENDCLASS.

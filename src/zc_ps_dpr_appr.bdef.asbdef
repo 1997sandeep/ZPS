@@ -1,0 +1,17 @@
+projection implementation in class ZBP_C_PS_DPR_APPR unique;
+strict ( 2 );
+use draft;
+define behavior for ZC_PS_DPR_APPR alias ZcPsDprAppr
+use etag
+
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+}

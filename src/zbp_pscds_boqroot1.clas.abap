@@ -1,0 +1,9 @@
+CLASS zbp_pscds_boqroot1 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zpscds_boqroot1.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZBP_PSCDS_BOQROOT1 IMPLEMENTATION.
+ENDCLASS.

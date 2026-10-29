@@ -1,0 +1,70 @@
+@Metadata.layer: #PARTNER
+@UI.headerInfo : {
+typeName: 'BOQ Report',
+typeNamePlural: 'BOQ Report'
+}
+annotate entity ZPS_BOQ_REPORT
+    with 
+{
+  @UI.lineItem: [{ position: 10 }]
+  @UI.selectionField: [{ position: 10 }]
+  @UI.identification: [{ position: 10 }]
+  @Consumption.defaultValue: '1'
+  @EndUserText.label: 'Version'
+  ZboqVersion;
+  @UI.lineItem: [{ position: 25 }]
+  @UI.selectionField: [{ position: 25 }]
+  @UI.identification: [{ position: 25 }]
+  @EndUserText.label: 'Project'
+  Project;
+  @UI.lineItem: [{ position: 30 }]
+  @UI.selectionField: [{ position: 30 }]
+  @UI.identification: [{ position: 30 }]
+  @EndUserText.label: 'WBS Element'
+  Posid;
+  @UI.lineItem: [{ position: 40 }]
+  @UI.selectionField: [{ position: 40 }]
+  @UI.identification: [{ position: 40 }]
+  @EndUserText.label: 'Level'
+  zboq_level;  
+  @UI.lineItem: [{ position: 45 }]
+  @UI.identification: [{ position: 45 }]
+  @EndUserText.label: 'Header No.'
+  ZboqHeadNo;
+  @UI.lineItem: [{ position: 50 }]
+  @UI.identification: [{ position: 50 }]
+  @EndUserText.label: 'BOQ Header Description'
+  ZboqHeadDesc;
+  @UI.lineItem: [{ position: 55 }]
+  @UI.identification: [{ position: 55 }]
+  @EndUserText.label: 'Item No.'
+  ZboqItemNo;
+  @UI.lineItem: [{ position: 60 }]
+  @UI.identification: [{ position: 60 }]
+  @EndUserText.label: 'BOQ Item Description'
+  ZboqItemDesc;
+  @UI.lineItem: [{ position: 65 }]
+  @UI.identification: [{ position: 65 }]
+  @EndUserText.label: 'Unit'
+  Zunit;
+  @UI.lineItem: [{ position: 70 }]
+  @UI.identification: [{ position: 70 }]
+  @EndUserText.label: 'Zero Bud.Qty'
+  ZboqQty;
+  @UI.lineItem: [{ position: 75 }]
+  @UI.identification: [{ position: 75 }]
+  @EndUserText.label: 'Till Date Qty'
+  Zboqtqty;
+  @UI.lineItem: [{ position: 80 }]
+  @UI.identification: [{ position: 80 }]
+  @EndUserText.label: 'Bal.Qty'
+  bal_qty;
+  @UI.lineItem: [{ position: 85 }]
+  @UI.identification: [{ position: 85 }]
+  @EndUserText.label: 'Rev Esti.Qty'
+  RevisedEstimateQty;
+  @UI.lineItem: [{ position: 90 }]
+  @UI.identification: [{ position: 90 }]
+  @EndUserText.label: 'Qty Variance'
+  qty_variance;
+}

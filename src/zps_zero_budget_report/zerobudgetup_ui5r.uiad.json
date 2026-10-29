@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Upload Zero Budget (BOQ) line items for projects and WBS elements from Excel",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Zero Budget Uploader"
+  },
+  "ui5AppDetails": {
+    "appId": "zerobudgetup"
+  },
+  "navigation": {
+    "targetMappingId": "ZEROBUDGETUP_UI5R_TM",
+    "semanticObject": "ZEROBUDGETUP",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZEROBUDGETUP_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Zero Budget Uploader"
+      }
+    }
+  ]
+}

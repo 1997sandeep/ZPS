@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Monthly Plan Report"
+  },
+  "ui5AppDetails": {
+    "appId": "zmonthlyplantreport"
+  },
+  "navigation": {
+    "targetMappingId": "ZMONTHLYREPORT_UI5R_TM",
+    "semanticObject": "ZMONTHLYPLANTREPORT",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZMONTHLYREPORT_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Monthly Plan Report"
+      }
+    }
+  ]
+}

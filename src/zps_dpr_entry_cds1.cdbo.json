@@ -1,0 +1,226 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "ZPS_DPR_ENTRY_CDS1",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZPS_DPR_ENTRY_CDS1"
+  },
+  "fields": [
+    {
+      "name": "ZDPR_NO",
+      "nature": "general"
+    },
+    {
+      "name": "ZPSPNR",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_DATE",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQ_HEAD_NO",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQ_ITEM_NO",
+      "nature": "general"
+    },
+    {
+      "name": "POSID",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQ_HEAD_DESC",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQ_ITEM_DESC",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQ_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZUNIT",
+      "nature": "general"
+    },
+    {
+      "name": "ZSUBCONTRACT",
+      "nature": "general"
+    },
+    {
+      "name": "ZUOM",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_BOQ",
+      "nature": "general"
+    },
+    {
+      "name": "ZSUBMITTED_NO",
+      "nature": "general"
+    },
+    {
+      "name": "ZSUBMITTED_LEN",
+      "nature": "general"
+    },
+    {
+      "name": "ZSUBMITTED_BRE",
+      "nature": "general"
+    },
+    {
+      "name": "ZSUBMITTED_HEI",
+      "nature": "general"
+    },
+    {
+      "name": "ZPREV_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZTOD_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZCUML_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZRESOURCE_UTL",
+      "nature": "general"
+    },
+    {
+      "name": "ZREMARK",
+      "nature": "general"
+    },
+    {
+      "name": "ZAPPR_STATUS",
+      "nature": "general"
+    },
+    {
+      "name": "ZPROJ_EXT",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQVERSION",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_FROM",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_TO",
+      "nature": "general"
+    },
+    {
+      "name": "ZDATE",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_NO",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_ITEM",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_NAME",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_UNIT",
+      "nature": "general"
+    },
+    {
+      "name": "ZMAT",
+      "nature": "general"
+    },
+    {
+      "name": "ZMAT_DESC",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_RATE",
+      "nature": "general"
+    },
+    {
+      "name": "ZWO_AMT",
+      "nature": "general"
+    },
+    {
+      "name": "ZTYPE_WORK",
+      "nature": "general"
+    },
+    {
+      "name": "ZCHAIN_FROM",
+      "nature": "general"
+    },
+    {
+      "name": "ZCHAIN_TO",
+      "nature": "general"
+    },
+    {
+      "name": "ZROADS",
+      "nature": "general"
+    },
+    {
+      "name": "ZLOCATION",
+      "nature": "general"
+    },
+    {
+      "name": "ZSOURCE_LOC",
+      "nature": "general"
+    },
+    {
+      "name": "ZLAYER",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_QTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZDPR_FLG",
+      "nature": "general"
+    },
+    {
+      "name": "ZAREA",
+      "nature": "general"
+    },
+    {
+      "name": "CREATED_BY",
+      "nature": "general"
+    },
+    {
+      "name": "CREATED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "LAST_CHANGED_BY",
+      "nature": "general"
+    },
+    {
+      "name": "LAST_CHANGED_AT",
+      "nature": "general"
+    },
+    {
+      "name": "EXCELROWNUMBER",
+      "nature": "general"
+    },
+    {
+      "name": "FLAG",
+      "nature": "general"
+    }
+  ]
+}

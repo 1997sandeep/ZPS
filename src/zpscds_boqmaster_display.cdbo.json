@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "BOQ Master",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "objectType": "DDLS",
+    "objectName": "ZPSCDS_BOQMASTER_DISPLAY"
+  },
+  "fields": [
+    {
+      "name": "ZPSPNR",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQVERSION",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQHEADNO",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQITEMNO",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQQTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZUNIT",
+      "nature": "general"
+    },
+    {
+      "name": "POSID",
+      "nature": "general"
+    },
+    {
+      "name": "ZDESCHAINFROM",
+      "nature": "general"
+    },
+    {
+      "name": "ZDESCHAINTO",
+      "nature": "general"
+    },
+    {
+      "name": "ZDESCHAINAT",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQHEADDESC",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQITEMDESC",
+      "nature": "general"
+    },
+    {
+      "name": "ZCURR",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQRATE",
+      "nature": "general"
+    },
+    {
+      "name": "ZTOTALAMT",
+      "nature": "general"
+    },
+    {
+      "name": "ZPROJEXT",
+      "nature": "general"
+    },
+    {
+      "name": "MATERIAL",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQHEADWBS",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQVQTY",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQVAMOUNT",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQVRATE",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQBILL",
+      "nature": "general"
+    },
+    {
+      "name": "ZBOQBILLUNIT",
+      "nature": "general"
+    },
+    {
+      "name": "CREATEDBY",
+      "nature": "general"
+    },
+    {
+      "name": "CREATEDAT",
+      "nature": "general"
+    },
+    {
+      "name": "LASTCHANGEDBY",
+      "nature": "general"
+    },
+    {
+      "name": "LASTCHANGEDAT",
+      "nature": "general"
+    },
+    {
+      "name": "EXCELROWNUMBER",
+      "nature": "general"
+    },
+    {
+      "name": "PLANT",
+      "nature": "general"
+    },
+    {
+      "name": "CONTRACT_LINE_ITEM",
+      "nature": "general"
+    },
+    {
+      "name": "RESPONSIBLE_ENG",
+      "nature": "general"
+    },
+    {
+      "name": "CONTRACT_NUMBER",
+      "nature": "general"
+    }
+  ]
+}

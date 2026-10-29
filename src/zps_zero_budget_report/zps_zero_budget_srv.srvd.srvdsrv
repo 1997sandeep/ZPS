@@ -1,0 +1,7 @@
+@EndUserText.label: 'Zero Budget Service'
+define service ZPS_ZERO_BUDGET_SRV {
+  expose ZPS_ZERO_BUDGET_CDS;
+  expose zps_dpr_f4_project_def   as f4_proj;
+  expose ZPS_DPR_F4_BOQ_HEAD_ITEM as f4_boq;
+  expose ZPS_DPR_F4_WBS_ELEMENT   as f4_wbs;
+}
